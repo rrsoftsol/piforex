@@ -7,7 +7,7 @@ import Footer from "./footer.js";
 export default ({ children }) => {
 
     return (
-        <div className="App">
+        <div className="boxed_wrapper">
             <Head>
                 <title>PRIMA INFINITE FOREX TRADING Company - CURRENCY EXCHANGE SERVICES</title>
                 <link rel="icon" href="/favicon-32x32.png" />

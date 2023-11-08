@@ -76,12 +76,8 @@ export default () => {
                         <nav className="main-menu navbar-expand-md navbar-light">
                             <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul className="navigation clearfix">
-                                    <li className="current dropdown"><a href="/">Home</a>
-                                        <ul>
-                                            <li><a href="/">Home One</a></li>
-                                            <li><a href="index-2.html">Home Two</a></li>
-                                            <li><a href="index-3.html">Home Three</a></li>
-                                        </ul>
+                                    <li className="current"><a href="/">Home</a>
+                                       
                                     </li>  
                                     <li className="dropdown"><a href="/">Markets</a>
                                         <ul>
@@ -128,7 +124,6 @@ export default () => {
                         </nav>
                     </div>
                     <div className="menu-right-content">
-                        <div className="search-box-outer search-toggler"><i className="flaticon-search"></i></div>
                         <div className="clients-box">
                             <div className="icon-box"><img src="images/icons/icon-6.png" alt=""></img></div>
                             <a href="/">Client Portal<i className="flaticon-right-down"></i></a>
@@ -149,8 +144,7 @@ export default () => {
                         </nav>
                     </div>
                     <div className="menu-right-content">
-                        <div className="search-box-outer search-toggler"><i className="flaticon-search"></i></div>
-                        <div className="clients-box">
+                         <div className="clients-box">
                             <div className="icon-box"><img src="images/icons/icon-6.png" alt=""></img></div>
                             <a href="/">Client Portal<i className="flaticon-right-down"></i></a>
                         </div>
