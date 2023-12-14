@@ -38,7 +38,7 @@ export default () => {
             <div className="outer-container">
                 <div className="support-box">
                     <div className="icon-box"><img src="images/icons/icon-1.png" alt=""></img></div>
-                    <p><a href="tel:+9140-40050954">+9140-40050954</a> or Request for a <a href="tel:+9140-40050954"><span>call back</span></a></p>
+                    <p><a href="tel:1800 889 2499">1800 889 2499</a> or Request for a <a href="tel:1800 889 2499"><span>call back</span></a></p>
                 </div>
                 <div className="text">
                     <div className="icon-box"><img src="images/icons/icon-2.png" alt=""></img></div>
@@ -128,7 +128,7 @@ export default () => {
                             <div className="icon-box"><img src="images/icons/icon-6.png" alt=""></img></div>
                             <a href="/">Client Portal<i className="flaticon-right-down"></i></a>
                         </div>
-                        <div className="btn-box"><a href="/" className="theme-btn btn-one"><span>Open an A/c</span></a></div>
+                        <div className="btn-box"><a href="/" className="theme-btn btn-one"><span>Live Rates</span></a></div>
                     </div>
                 </div>
             </div>

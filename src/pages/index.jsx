@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout from "../components/layout"; 
+import Pricing from "../components/pricing"; 
 
 import ServiceSection from "../components/services"; 
 
@@ -35,10 +36,9 @@ export default function Home() {
                     <div class="image-layer" style={{backgroundImage:"url('images/banner/banner-2.jpg')"}}></div>
                     <div className="large-container">
                         <div className="content-box">
-                            <h2><span>Account</span> <br />that Suits Your Trading Style</h2>
-                            <p>Deaching of the great explorer of the truth the builder of human happiness.</p>
+                            <h2><span>Buy or Sell</span> <br />Foreign currency at live exchange rate</h2>
                             <div className="btn-box">
-                                <a href="/" className="theme-btn btn-two"><span>Try Free Demo</span></a>
+                                <a href="/" className="theme-btn btn-two"><span>Live Rates</span></a>
                             </div>
                             <div className="highlights-box">
                                 <div className="single-item">
@@ -87,9 +87,8 @@ export default function Home() {
             <div className="pattern-layer"> 
             </div>
             <div className="auto-container">
-                <div className="sec-title centred light">
-                    <span className="sub-title">Forex Trading</span>
-                    <h2>The Ultimate Gateway to <br /><span>Trading</span> Success</h2>
+                <div className="sec-title centred light"> 
+                    <h2>The PI Forex Advantage over other banks</h2>
                 </div>
                 <div className="row clearfix">
                     <div className="col-lg-4 col-md-6 col-sm-12 trading-block">
@@ -98,10 +97,10 @@ export default function Home() {
                                 <div className="icon-box"><img src="images/icons/icon-7.png" alt=""></img></div>
                                 <div className="overlay-icon"><img src="images/icons/icon-8.png" alt=""></img></div>
                                 <div className="text">
-                                    <h3><a href="/">What is forex trading?</a></h3>
-                                    <p>Enim velit minima venia quis strum exercit atione in ullam corporis suscipit.</p>
+                                    <h3><a href="/">Best Rates</a></h3>
+                                    <p>Get the best exchange rates around you compared across hundreds of banks and money changers</p>
                                 </div>
-                                <div className="lower-text"><h6><span>*</span> Harum quidem rerum facilis.</h6></div>
+                                <div className="lower-text"><h6><span>*</span>Save 2.5% - 6.5% over banks & money changers.</h6></div>
                                 <div className="link-box"><a href="/"><span>More</span></a></div>
                             </div>
                         </div>
@@ -112,10 +111,12 @@ export default function Home() {
                                 <div className="icon-box"><img src="images/icons/icon-9.png" alt=""></img></div>
                                 <div className="overlay-icon"><img src="images/icons/icon-10.png" alt=""></img></div>
                                 <div className="text">
-                                    <h3><a href="/">Why trade in PRIMA INFINITE FOREX?</a></h3>
-                                    <p>Dolore magnam aliqua nam quaerat voluptate enimto vel minima veniam.</p>
+                                    <h3><a href="/">Reliable</a></h3>
+                                    <p>Reliable and  Verified RBI Authorized Banks
+
+Streamlined Online Forex order processing with live tracking of your Forex Order.</p>
                                 </div>
-                                <div className="lower-text"><h6><span>*</span> Dolores eos qui ratione.</h6></div>
+                                <div className="lower-text"><h6><span>*</span>Best Customer Service.</h6></div>
                                 <div className="link-box"><a href="/"><span>More</span></a></div>
                             </div>
                         </div>
@@ -126,17 +127,19 @@ export default function Home() {
                                 <div className="icon-box"><img src="images/icons/icon-11.png" alt=""></img></div>
                                 <div className="overlay-icon"><img src="images/icons/icon-12.png" alt=""></img></div>
                                 <div className="text">
-                                    <h3><a href="/">How to trade <br />forex?</a></h3>
-                                    <p>Exercitation ullam labori sore ut aliquip vel nisi commonds consequat voluptate. </p>
+                                    <h3><a href="/">Transparent</a></h3>
+                                    <p>you get transparent bank rates in secured and privacy transactions for you orders. we take stringest actions for data safety </p>
                                 </div>
-                                <div className="lower-text"><h6><span>*</span> Fugiat quo voluptas nulla.</h6></div>
+                                <div className="lower-text"><h6><span>*</span> Your data is safe.</h6></div>
                                 <div className="link-box"><a href="/"><span>More</span></a></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> 
+        <Pricing></Pricing>
+
         <section className="working-section sec-pad centred">
             <div className="auto-container">
                 <div className="sec-title">
@@ -210,25 +213,27 @@ export default function Home() {
                 </div>
             </div>
         </section>
-        <section className="chooseus-section">
+        <section className="chooseus-section centred">
             <div className="bg-layer" ></div>
             <div className="auto-container">
                 <div className="row clearfix">
                     <div className="col-lg-12 col-md-12 content-column">
                         <div className="content-box">
-                            <div className="sec-title light">
-                                <span className="sub-title">Why Choose Us</span>
-                                <h2>Reason For <span>Choose Us</span></h2>
+                            <div className="sec-title light"> 
+                                <h2>Business to <span>Business</span></h2>
                             </div>
                             <div className="row clearfix">
                                 <div className="col-lg-4 col-md-6 col-sm-12 chooseus-block">
                                     <div className="chooseus-block-one">
                                         <div className="inner-box">
                                             <div className="shape">
-                                              
+                                            <div class="shape-1" style={{backgroundImage:"url('images/shape/shape-4.png')"}}></div>
+                                            <div class="shape-2" style={{backgroundImage:"url('images/shape/shape-5.png')"}}></div>
+                                            <div class="shape-3" style={{backgroundImage:"url('images/shape/shape-6.png')"}}></div>
+                                           
                                             </div>
-                                            <h3><a href="/">Friendly & Expert</a></h3>
-                                            <p>Beatae vitae dicta sun explicabo nemo enim ipsam voluptatem volupta.</p>
+                                            <h3><a href="/">Educational Consultant</a></h3>
+                                            <p>Be one stop solution for your students, book your forex requirements online</p>
                                             <div className="icon-box"><img src="images/icons/icon-21.png" alt=""></img></div>
                                         </div>
                                     </div>
@@ -237,10 +242,13 @@ export default function Home() {
                                     <div className="chooseus-block-one">
                                         <div className="inner-box">
                                             <div className="shape">
-                                                 
+                                            <div class="shape-1" style={{backgroundImage:"url('images/shape/shape-4.png')"}}></div>
+                                            <div class="shape-2" style={{backgroundImage:"url('images/shape/shape-5.png')"}}></div>
+                                            <div class="shape-3" style={{backgroundImage:"url('images/shape/shape-6.png')"}}></div>
+                                           
                                             </div>
-                                            <h3><a href="/">24/7 Support</a></h3>
-                                            <p>Dolore magnam aliquam quaer volur enim ad minima veniam.</p>
+                                            <h3><a href="/">Travel Agent</a></h3>
+                                            <p>You can book forex on behalf Customers.</p>
                                             <div className="icon-box"><img src="images/icons/icon-22.png" alt=""></img></div>
                                         </div>
                                     </div>
@@ -249,10 +257,13 @@ export default function Home() {
                                     <div className="chooseus-block-one">
                                         <div className="inner-box">
                                             <div className="shape">
-                                                 
+                                            <div class="shape-1" style={{backgroundImage:"url('images/shape/shape-4.png')"}}></div>
+                                            <div class="shape-2" style={{backgroundImage:"url('images/shape/shape-5.png')"}}></div>
+                                            <div class="shape-3" style={{backgroundImage:"url('images/shape/shape-6.png')"}}></div>
+                                           
                                             </div>
-                                            <h3><a href="/">Demo account</a></h3>
-                                            <p>Omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                                            <h3><a href="/">Corporate</a></h3>
+                                            <p>When your employess travel abroad,  book your forex requirements online</p>
                                             <div className="icon-box"><img src="images/icons/icon-23.png" alt=""></img></div>
                                         </div>
                                     </div>
