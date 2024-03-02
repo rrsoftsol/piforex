@@ -67,25 +67,7 @@ export default function Header() {
             </div>
             <div className="nav_alt">
               <div className="right-area position-relative ms-0 d-center gap-1 gap-xl-4 d-lg-none">
-                <div className="single-item">
-                  <Link
-                    href="/login"
-                    className="rotate_eff flex-nowrap py-1 px-2 px-xl-3 d-center gap-1 fw-bold nw1-color"
-                  >
-                    {" "}
-                    Login <i className="ri-arrow-right-line fs-six-up"></i>
-                  </Link>
-                </div>
-                <div className="single-item">
-                  <Link
-                    href="/registration"
-                    className="cmn-btn fw-bold py-2 px-2 px-sm-3 px-lg-4 align-items-center gap-1"
-                  >
-                    {" "}
-                    Sign Up{" "}
-                    <i className="ri-arrow-right-line fw-semibold fs-six-up"></i>
-                  </Link>
-                </div>
+              
               </div>
             </div>
             <div className={`collapse navbar-collapse justify-content-center`}>
