@@ -1,6 +1,22 @@
 import { v4 as uuidv4 } from "uuid";
 
-export const headerMenu = [
+  //active menu link color
+
+  interface MenuItem {
+    id: string;
+    name: string;
+    isSubmenu: boolean;
+    icon: string;
+    link?: string; // Link is optional for parent menu items
+    submenu?: SubMenuItem[]; // Submenu is an array of SubMenuItem objects
+  }
+
+  interface SubMenuItem {
+    id: string;
+    name: string;
+    link: string;
+  }
+export const headerMenu: MenuItem[] = [
    
   {
     id: uuidv4(),

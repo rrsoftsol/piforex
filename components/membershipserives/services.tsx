@@ -32,7 +32,7 @@ export default function WeHelp() {
             <div >
               <h3 className=" d-center mb-4">Membership Services.</h3>
               <p >
-              Embark on your international education journey with confidence and ease by joining Pi Forex's Student Membership program. Enjoy a range of tailored benefits designed to support your financial needs and simplify the complexities of studying abroad:
+              Embark on your international education journey with confidence and ease by joining Pi Forex&apos;s Student Membership program. Enjoy a range of tailored benefits designed to support your financial needs and simplify the complexities of studying abroad:
               </p>
               
             </div>

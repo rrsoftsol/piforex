@@ -35,7 +35,7 @@ export default function TradeOn() {
               </span>
               <h3 className="mb-4 mb-lg-5">Membership Services</h3>
               <p className="fs-six mx-ch">
-              Embark on your international education journey with confidence and ease by joining Pi Forex's Student Membership program. Enjoy a range of tailored benefits designed to support your financial needs and simplify the complexities of studying abroad.
+              Embark on your international education journey with confidence and ease by joining Pi Forex&apos;s Student Membership program. Enjoy a range of tailored benefits designed to support your financial needs and simplify the complexities of studying abroad.
               </p>
               <ul className="d-flex gap-4 flex-column mt-6">
                 <li className="d-flex align-items-center gap-3 fs-six-up">

@@ -32,7 +32,7 @@ export default function WeHelp() {
             <div className="customers__content me-xxl-18">
               <h3 className="mb-4">Sell Forex.</h3>
               <p className="mx-ch">
-              we offer you a straightforward platform to exchange your foreign currency with ease and convenience. Here's what you can expect:
+              we offer you a straightforward platform to exchange your foreign currency with ease and convenience. Here&apos;s what you can expect:
 At Pi Forex, we ensure that you receive competitive rates for selling your foreign currency.
 Provide the necessary documents and get the best possible rates, ensuring maximum value for your money.
 

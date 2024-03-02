@@ -32,7 +32,7 @@ export default function WeHelp() {
             <div className="customers__content me-xxl-18">
               <h3 className="mb-4">Buy Forex.</h3>
               <p className="mx-ch">
-              we offer you a seamless process to purchase currency notes at the best rates, ensuring a convenient and efficient experience. Here's how it works:
+              we offer you a seamless process to purchase currency notes at the best rates, ensuring a convenient and efficient experience. Heres how it works:
 Simply provide the necessary documents, And Once your documents are verified, you can acquire your desired currency notes through our user-friendly interface.
 Choose from a wide range of currencies and denominations to suit your travel or business needs.
 
