@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function TradeOn() {
   return (
-    <section className="trade_on a2-bg pt-120 pb-120 position-relative z-0">
+    <section className="trade_on pt-120 pb-120 position-relative z-0">
       <div className="animation position-absolute top-0 left-0 w-100 h-100 z-n1">
         <Image
           src={coin}
