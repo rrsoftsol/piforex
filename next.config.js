@@ -1,4 +1,4 @@
-module.exports = {
-    basePath: '',
-    assetPrefix: '/', // assetPrefix requires the trailing slash
-  }
+/** @type {import('next').NextConfig} */
+const nextConfig = {}
+
+module.exports = nextConfig
