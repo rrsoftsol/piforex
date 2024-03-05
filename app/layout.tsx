@@ -4,6 +4,7 @@ import ScrollToTop from "@/ui/ScrollToTop";
 import type { Metadata } from "next";
 import { Open_Sans, Poppins } from "next/font/google";
 import "remixicon/fonts/remixicon.css";
+import {GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google'
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -34,7 +35,10 @@ export default function RootLayout({
         {children}
 
         <CustomCursor />
-        <ScrollToTop />
+        <ScrollToTop />        
+        <GoogleTagManager gtmId="GTM-TGB9LC8H" />
+        <GoogleAnalytics gaId="G-ZHX7VQSL2R" />
+        
       </body>
     </html>
   );
