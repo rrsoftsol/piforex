@@ -37,7 +37,7 @@ export default function RateCard() {
     </tr>
   </tbody>
 </table>
-      <p>*Currency and TC's are subject to availability</p>
+      <p>*Currency and TCs are subject to availability</p>
         </div>
        
       </div>
