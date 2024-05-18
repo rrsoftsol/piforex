@@ -101,7 +101,7 @@ export default function Footer() {
       </div>
       <TawkMessengerReact
                 propertyId="664833ec9a809f19fb327971"
-                widgetId="default"
+                widgetId="1hu50llit"
                 useRef={tawkMessengerRef}/>
     </footer> 
    
