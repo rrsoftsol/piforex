@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import { footerLinks } from "@/constants/menu";
 import star2 from "@/public/images/star2.png";
 import starFocus from "@/public/images/star_focus.png";
@@ -9,7 +9,11 @@ import Image from "next/image";
 import Link from "next/link";
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 
-export default function Footer() {
+import { useRef } from 'react';
+
+export default function Footer() { 
+  const tawkMessengerRef = useRef();
+ 
   return (
     <footer className="footer a2-bg position-relative pt-15 pt-lg-0 z-0">
       <div className="animation position-absolute top-0 left-0 w-100 h-100 z-n1 d-none d-xxxl-flex">
@@ -97,7 +101,8 @@ export default function Footer() {
       </div>
       <TawkMessengerReact
                 propertyId="664833ec9a809f19fb327971"
-                widgetId="default"/>
+                widgetId="default"
+                useRef={tawkMessengerRef}/>
     </footer> 
    
   );
