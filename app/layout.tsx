@@ -19,8 +19,9 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Piforex - Hassle free exchange",
-  description: "Piforex offers a convenient way to buy and sell Forex online with doorstep delivery. Simplify your foreign exchange transactions with our trusted and secure platform.",
+  title: "Piforex - Foreign Currency Exchange & International Money Transfer Services Around Hyderabad, Telangana",
+  description: "Piforex Offers The Best Foreign Currency Exchange, International Money Transfer in a convenient way with doorstep delivery Around Hyderabad, Telangana.",
+  keywords:"international money transfer from Hyderabad, purchase currency notes at the best rates, Best foreign currency exchange in hyderabad, visa assistance for students, membership servies for students"
 };
 
 export default function RootLayout({

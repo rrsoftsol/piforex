@@ -40,6 +40,9 @@
             border-radius: 0px 24px 24px 0px;
         }
     }
+    .hero-section__thumbs{
+        background: rgba(0,0,0,0.2);
+    }
     .list_items{
         @include maxQuery(991){
             li{

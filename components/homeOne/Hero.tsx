@@ -61,10 +61,10 @@ export default function Hero() {
             </div>
           </div>
           <div className="col-sm-10 col-lg-6">
-            <div className="hero-section__thumbs pb-xxl-10">
+            <div className="hero-section__thumbs pb-xxl-10 rounded-2 p-2">
               <div className="sign__content ms-md-5 ms-xxl-0 px-10">
                 <div className="head_part">
-                  <h5 className="mt-5 mt-lg-6">Buy Foreign Exchange</h5>
+                  <h5 className="mt-5 mt-lg-6">Buy Currency</h5>
                 </div>
                 <div 
                   id="frmContactus"
