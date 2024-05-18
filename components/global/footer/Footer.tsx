@@ -1,3 +1,4 @@
+"use client";
 import { footerLinks } from "@/constants/menu";
 import star2 from "@/public/images/star2.png";
 import starFocus from "@/public/images/star_focus.png";
@@ -6,6 +7,7 @@ import vector4 from "@/public/images/vector4.png";
 import SocialIcons from "@/ui/SocialIcons";
 import Image from "next/image";
 import Link from "next/link";
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 
 export default function Footer() {
   return (
@@ -93,6 +95,10 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </footer>
+      <TawkMessengerReact
+                propertyId="664833ec9a809f19fb327971"
+                widgetId="default"/>
+    </footer> 
+   
   );
 }

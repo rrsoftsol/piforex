@@ -1129,6 +1129,12 @@ iframe {
 	width: 100%;
 }
 
+#dropdown-item-button{
+	width: 100%;
+	padding: 16px;
+	border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
 // Custom Dropdown 
 *::-webkit-scrollbar-track {
 	background: rgba(var(--n5), 1);

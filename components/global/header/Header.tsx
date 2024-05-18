@@ -13,7 +13,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   const { scroll } = useScroll();
   const path = usePathname();
-  const isHomePage = path === "/";
+  const isHomePage = false;
 
   //active menu link color
 
